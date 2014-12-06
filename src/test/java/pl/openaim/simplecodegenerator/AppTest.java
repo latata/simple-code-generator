@@ -1,4 +1,4 @@
-package pl.latata;
+package pl.openaim.simplecodegenerator;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
