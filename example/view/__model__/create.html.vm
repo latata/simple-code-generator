@@ -1,0 +1,7 @@
+<form method="post">
+	#foreach ($field in ${p.fields})
+	<label for="$field.name">$field.name</label>
+	<input type="$field.type" name="$field.name" id="$field.name" />
+	#end
+	<input type="submit" value="Save" />
+</form>

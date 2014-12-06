@@ -1,0 +1,8 @@
+function create${p.modelCapitalize}Controller (entityManager) {
+	var ${p.model} = new ${p.modelCapitalize}();
+
+	this.save = function () {
+		entityManager.save(${p.model});
+	}
+		
+}
