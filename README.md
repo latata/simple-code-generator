@@ -8,6 +8,7 @@ Usage
 1. Prepare template directory:
   - it can contain subdirectories and your template files with `.vm` extension
   - it must contain `parameters.json` file with your parameters which will be used to fill your templates
+  - you can use parameters also in directory names, e.g. `__myName__`, where `myName` is a parameter name
 2. Put your template direcotry in the same directory as your **simlple-code-generator** tool.
 3. Run **simple-code-generator**:
   - `java -jar simple-code-generator.jar`
