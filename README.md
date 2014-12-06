@@ -14,3 +14,12 @@ Usage
 3. Run **simple-code-generator**:
   - `java -jar simple-code-generator.jar`
 4. It generates code in directory named with `_result` suffix.
+
+Example
+=======
+Check an `example` template directory.
+
+Links
+=====
+- Velocity templates user guide
+  - https://velocity.apache.org/engine/releases/velocity-1.5/user-guide.html
